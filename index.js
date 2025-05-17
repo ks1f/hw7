@@ -62,7 +62,7 @@ const books = [
 ];
 
 const booksXX = books
-  .filter((book) => book.year <= 2000)
+  .filter((book) => book.year < 2000)
   .map((book) => book.name);
 
 const booksXXI = books
